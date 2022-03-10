@@ -2,9 +2,11 @@
   "name": "ascend",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
@@ -16,8 +18,5 @@
     "node-geocoder": "^4.0.0",
     "nodemon": "^2.0.15",
     "pg": "^8.7.3"
-  }, 
-  "engines": {
-    "node": "16.11.0"
   }
 }
